@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+drf-spectacular = "*"
+psycopg2-binary = "*"
+djangorestframework-simplejwt = {extras = ["crypto"], version = "*"}
+dataclasses = "*"
+django-crispy-forms = "==1.10.0"
+faker = "*"
+django-extensions = "*"
+dataclass-type-validator = "*"
+install = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
